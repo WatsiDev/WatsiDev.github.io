@@ -32,3 +32,24 @@ div.tecnologias img{
     margin-left: 20px;
     margin-right: 20px;
 }
+
+i {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  i:hover {
+    transform: scale(1.1);
+  }
+  
+  i:active {
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
