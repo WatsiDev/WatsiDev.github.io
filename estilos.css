@@ -2,3 +2,33 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.main{
+    background-color: #EBF3FF;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+}
+header{
+    background-color: #EBF3FF;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: #EBF3FF;
+    text-align: center;
+}
+footer{
+    background-color: #EBF3FF;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    text-align: center;
+}
+
+div.tecnologias img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
