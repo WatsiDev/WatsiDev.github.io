@@ -28,7 +28,11 @@ footer{
     text-align: center;
 }
 
+
+
 div.tecnologias img{
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -53,3 +57,4 @@ i {
     box-shadow: none;
     transform: scale(0.98);
   }
+
