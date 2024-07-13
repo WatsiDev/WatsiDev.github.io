@@ -4,31 +4,35 @@ body{
 }
 
 .main{
-    background-color: #EBF3FF;
+    background-color: #f6f6f6;
 }
 h2{
+    font-weight: lighter;
     padding: 20px;
     text-align: center;
 }
 header{
-    background-color: #EBF3FF;
+    background-color: #f6f6f6;
     padding: 20px;
     text-align: center;
 }
 nav{
-    background-color: #EBF3FF;
+    background-color: #f6f6f6;
     text-align: center;
 }
 footer{
-    background-color: #EBF3FF;
+    background-color: #f6f6f6;
     text-align: center;
     padding: 20px;
+    color: black;
 }
 .container{
     text-align: center;
 }
 
-
+div.card{
+    background-color: white;
+}
 
 div.tecnologias img{
     margin-top: 5px;
@@ -37,7 +41,13 @@ div.tecnologias img{
     margin-right: 20px;
 }
 
-i {
+
+div.subtitle i{
+    padding: 20px;
+    font-size: 22px;
+    color: black;
+}
+div.contact i{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -47,14 +57,20 @@ i {
     -webkit-transition: all 0.5s;
   }
   
-  i:hover {
+  div.contact i:hover {
     transform: scale(1.1);
   }
   
-  i:active {
+  div.contact i:active {
     transition: all 0.25s;
     -webkit-transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
   }
 
+  a{
+    
+    font-weight: lighter;
+  }
+
+ 
